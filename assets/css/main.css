@@ -892,7 +892,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				/* box-shadow: inset 0 0 0 1px #ffffff; */
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -900,9 +900,9 @@ input, select, textarea {
 				width: 2.25rem;
 			}
 
-				ul.icons li a:hover {
+				/* ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
-				}
+				} */
 
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
@@ -1119,7 +1119,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1135,7 +1135,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/stock-palmtrees.jpg");
+			background-image: url("../../images/blurry-city-lights2.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1346,7 +1346,7 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						/* background-color: rgba(255, 255, 255, 0.075); */
 					}
 
 					#header nav ul li a:active {
@@ -1510,6 +1510,11 @@ input, select, textarea {
 		z-index: 3;
 	}
 
+	#contact{
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
 		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
@@ -1528,6 +1533,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
@@ -1535,6 +1541,7 @@ input, select, textarea {
 				transform: translateY(0);
 				opacity: 1;
 			}
+
 
 			#main article .close {
 				display: block;
@@ -1636,3 +1643,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		
